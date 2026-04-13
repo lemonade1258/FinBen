@@ -1,0 +1,72 @@
+hf (pretrained=/persist_data/home/maoweijiang/model/Qwen2.5-0.5B,trust_remote_code=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 8
+|                           Tasks                            |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|------------------------------------------------------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|zh-fineval_accounting                                       |      1|none  |     5|acc     |↑  |0.5000|±  |0.0845|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5000|±  |0.0845|
+|zh-fineval_advanced_financial_accounting                    |      1|none  |     5|acc     |↑  |0.6667|±  |0.1054|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6667|±  |0.1054|
+|zh-fineval_auditing                                         |      1|none  |     5|acc     |↑  |0.6250|±  |0.0870|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6250|±  |0.0870|
+|zh-fineval_banking_practitioner_qualification_certificate   |      1|none  |     5|acc     |↑  |0.6034|±  |0.0456|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6034|±  |0.0456|
+|zh-fineval_central_banking                                  |      1|none  |     5|acc     |↑  |0.5714|±  |0.0952|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5714|±  |0.0952|
+|zh-fineval_certified_management_accountant                  |      1|none  |     5|acc     |↑  |0.4444|±  |0.1205|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4444|±  |0.1205|
+|zh-fineval_certified_practising_accountant                  |      1|none  |     5|acc     |↑  |0.5588|±  |0.0864|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5588|±  |0.0864|
+|zh-fineval_china_actuary                                    |      1|none  |     5|acc     |↑  |0.3514|±  |0.0796|
+|                                                            |       |none  |     5|acc_norm|↑  |0.3514|±  |0.0796|
+|zh-fineval_commercial_bank_finance                          |      1|none  |     5|acc     |↑  |0.5500|±  |0.1141|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5500|±  |0.1141|
+|zh-fineval_corporate_finance                                |      1|none  |     5|acc     |↑  |0.5278|±  |0.0844|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5278|±  |0.0844|
+|zh-fineval_corporate_strategy_and_risk_management           |      1|none  |     5|acc     |↑  |0.4242|±  |0.0874|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4242|±  |0.0874|
+|zh-fineval_cost_accounting                                  |      1|none  |     5|acc     |↑  |0.6765|±  |0.0814|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6765|±  |0.0814|
+|zh-fineval_econometrics                                     |      1|none  |     5|acc     |↑  |0.3333|±  |0.1143|
+|                                                            |       |none  |     5|acc_norm|↑  |0.3333|±  |0.1143|
+|zh-fineval_economic_law                                     |      1|none  |     5|acc     |↑  |0.5200|±  |0.1020|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5200|±  |0.1020|
+|zh-fineval_finance                                          |      1|none  |     5|acc     |↑  |0.5600|±  |0.1013|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5600|±  |0.1013|
+|zh-fineval_financial_engineering                            |      1|none  |     5|acc     |↑  |0.5769|±  |0.0988|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5769|±  |0.0988|
+|zh-fineval_financial_management                             |      1|none  |     5|acc     |↑  |0.4167|±  |0.1028|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4167|±  |0.1028|
+|zh-fineval_financial_markets                                |      1|none  |     5|acc     |↑  |0.5128|±  |0.0811|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5128|±  |0.0811|
+|zh-fineval_fund_qualification_certificate                   |      1|none  |     5|acc     |↑  |0.6765|±  |0.0572|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6765|±  |0.0572|
+|zh-fineval_futures_practitioner_qualification_certificate   |      1|none  |     5|acc     |↑  |0.4872|±  |0.0811|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4872|±  |0.0811|
+|zh-fineval_insurance                                        |      1|none  |     5|acc     |↑  |0.6364|±  |0.0850|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6364|±  |0.0850|
+|zh-fineval_intermediate_financial_accounting                |      1|none  |     5|acc     |↑  |0.4615|±  |0.0997|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4615|±  |0.0997|
+|zh-fineval_international_economics                          |      1|none  |     5|acc     |↑  |0.3500|±  |0.1094|
+|                                                            |       |none  |     5|acc_norm|↑  |0.3500|±  |0.1094|
+|zh-fineval_international_finance                            |      1|none  |     5|acc     |↑  |0.7059|±  |0.1139|
+|                                                            |       |none  |     5|acc_norm|↑  |0.7059|±  |0.1139|
+|zh-fineval_investments                                      |      1|none  |     5|acc     |↑  |0.6053|±  |0.0804|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6053|±  |0.0804|
+|zh-fineval_macroeconomics                                   |      1|none  |     5|acc     |↑  |0.3548|±  |0.0874|
+|                                                            |       |none  |     5|acc_norm|↑  |0.3548|±  |0.0874|
+|zh-fineval_management_accounting                            |      1|none  |     5|acc     |↑  |0.4828|±  |0.0944|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4828|±  |0.0944|
+|zh-fineval_microeconomics                                   |      1|none  |     5|acc     |↑  |0.4750|±  |0.0800|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4750|±  |0.0800|
+|zh-fineval_monetary_finance                                 |      1|none  |     5|acc     |↑  |0.6047|±  |0.0754|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6047|±  |0.0754|
+|zh-fineval_political_economy                                |      1|none  |     5|acc     |↑  |0.6522|±  |0.1015|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6522|±  |0.1015|
+|zh-fineval_public_finance                                   |      1|none  |     5|acc     |↑  |0.5500|±  |0.0797|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5500|±  |0.0797|
+|zh-fineval_securities_practitioner_qualification_certificate|      1|none  |     5|acc     |↑  |0.6364|±  |0.1050|
+|                                                            |       |none  |     5|acc_norm|↑  |0.6364|±  |0.1050|
+|zh-fineval_statistics                                       |      1|none  |     5|acc     |↑  |0.5429|±  |0.0854|
+|                                                            |       |none  |     5|acc_norm|↑  |0.5429|±  |0.0854|
+|zh-fineval_tax_law                                          |      1|none  |     5|acc     |↑  |0.4667|±  |0.0752|
+|                                                            |       |none  |     5|acc_norm|↑  |0.4667|±  |0.0752|
+

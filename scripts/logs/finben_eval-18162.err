@@ -1,0 +1,79 @@
+2026-04-12:16:42:53,869 INFO     [__main__.py:279] Verbosity set to DEBUG
+2026-04-12:16:42:53,869 INFO     [__main__.py:303] Including path: ./tasks/chinese
+2026-04-12:16:43:01,789 INFO     [__main__.py:376] Selected Tasks: ['zh-fineval']
+2026-04-12:16:43:01,795 INFO     [evaluator.py:164] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-04-12:16:43:01,795 INFO     [evaluator.py:201] Initializing hf model, with arguments: {'pretrained': '/persist_data/home/maoweijiang/model/Qwen2.5-0.5B'}
+2026-04-12:16:43:02,088 INFO     [huggingface.py:132] Using device 'cuda:0'
+2026-04-12:16:43:02,096 DEBUG    [huggingface.py:485] Using model type 'causal'
+2026-04-12:16:43:02,449 INFO     [huggingface.py:369] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+`torch_dtype` is deprecated! Use `dtype` instead!
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:43:06,971 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 3e7da5e9-c189-4fb7-ba19-b7b3eb81ebf9)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+2026-04-12:16:43:17,076 WARNING  [_http.py:320] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 3e7da5e9-c189-4fb7-ba19-b7b3eb81ebf9)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+Retrying in 1s [Retry 1/5].
+2026-04-12:16:43:17,076 WARNING  [_http.py:329] Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 95315a8d-bc60-4e3e-bc37-e7a5429b9eb5)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+2026-04-12:16:43:28,087 WARNING  [_http.py:320] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 95315a8d-bc60-4e3e-bc37-e7a5429b9eb5)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+Retrying in 2s [Retry 2/5].
+2026-04-12:16:43:28,088 WARNING  [_http.py:329] Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: b4aa5005-a3e9-47a7-bdc8-42fb52953744)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+2026-04-12:16:43:30,117 WARNING  [_http.py:320] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: b4aa5005-a3e9-47a7-bdc8-42fb52953744)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+Retrying in 4s [Retry 3/5].
+2026-04-12:16:43:30,117 WARNING  [_http.py:329] Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 0eac13b5-44ab-4c21-aab8-43cda0db274a)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+2026-04-12:16:43:34,153 WARNING  [_http.py:320] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 0eac13b5-44ab-4c21-aab8-43cda0db274a)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+Retrying in 8s [Retry 4/5].
+2026-04-12:16:43:34,153 WARNING  [_http.py:329] Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: f6167c63-941b-4a93-afde-86d5295d390a)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+2026-04-12:16:43:42,187 WARNING  [_http.py:320] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: f6167c63-941b-4a93-afde-86d5295d390a)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+Retrying in 8s [Retry 5/5].
+2026-04-12:16:43:42,187 WARNING  [_http.py:329] Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 57e12ca6-bf45-4bab-88a1-626d5522b148)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+2026-04-12:16:43:50,223 WARNING  [_http.py:320] '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/daishen/zh-fineval/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 57e12ca6-bf45-4bab-88a1-626d5522b148)')' thrown while requesting HEAD https://huggingface.co/datasets/daishen/zh-fineval/resolve/main/README.md
+Traceback (most recent call last):
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/bin/lm_eval", line 6, in <module>
+    sys.exit(cli_evaluate())
+             ^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/__main__.py", line 382, in cli_evaluate
+    results = evaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/evaluator.py", line 235, in simple_evaluate
+    task_dict = get_task_dict(tasks, task_manager)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 618, in get_task_dict
+    task_name_from_string_dict = task_manager.load_task_or_group(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 414, in load_task_or_group
+    collections.ChainMap(*map(self._load_individual_task_or_group, task_list))
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 332, in _load_individual_task_or_group
+    collections.ChainMap(*map(fn, reversed(subtask_list)))
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 314, in _load_individual_task_or_group
+    return _load_task(task_config, task=name_or_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 280, in _load_task
+    task_object = ConfigurableTask(config=config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/api/task.py", line 819, in __init__
+    self.download(self.config.dataset_kwargs)
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/api/task.py", line 926, in download
+    self.dataset = datasets.load_dataset(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/datasets/load.py", line 1688, in load_dataset
+    builder_instance = load_dataset_builder(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/datasets/load.py", line 1315, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/datasets/load.py", line 1207, in dataset_module_factory
+    raise e1 from None
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/datasets/load.py", line 1133, in dataset_module_factory
+    raise ConnectionError(f"Couldn't reach '{path}' on the Hub ({e.__class__.__name__})") from e
+ConnectionError: Couldn't reach 'daishen/zh-fineval' on the Hub (LocalEntryNotFoundError)

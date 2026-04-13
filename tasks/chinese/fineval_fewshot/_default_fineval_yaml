@@ -1,6 +1,6 @@
 dataset_path: daishen/zh-fineval
 dataset_kwargs:
-  cache_dir: /data/wangyuxin/.cache/huggingface/datasets/
+  cache_dir: /remote_dir/home/maoweijiang/.cache/huggingface/datasets/
   trust_remote_code: true
 #validation_split: valid
 test_split: valid

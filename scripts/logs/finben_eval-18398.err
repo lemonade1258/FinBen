@@ -1,0 +1,100 @@
+2026-04-13:15:38:13,443 INFO     [__main__.py:279] Verbosity set to DEBUG
+2026-04-13:15:38:13,443 INFO     [__main__.py:303] Including path: ./tasks/fudan
+2026-04-13:15:38:20,899 INFO     [__main__.py:376] Selected Tasks: ['chd_test']
+2026-04-13:15:38:20,907 INFO     [evaluator.py:164] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-04-13:15:38:20,907 INFO     [evaluator.py:201] Initializing hf model, with arguments: {'pretrained': '/persist_data/home/maoweijiang/model/Qwen2.5-0.5B', 'trust_remote_code': True}
+2026-04-13:15:38:21,343 INFO     [huggingface.py:132] Using device 'cuda:0'
+2026-04-13:15:38:21,358 DEBUG    [huggingface.py:485] Using model type 'causal'
+2026-04-13:15:38:21,748 INFO     [huggingface.py:369] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+`torch_dtype` is deprecated! Use `dtype` instead!
+Generating train split:   0%|          | 0/300 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 300/300 [00:00<00:00, 2921.56 examples/s]
+2026-04-13:15:38:44,453 WARNING  [task.py:325] [Task: chd_test] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2026-04-13:15:38:44,454 WARNING  [task.py:325] [Task: chd_test] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2026-04-13:15:38:44,491 INFO     [task.py:415] Building contexts for chd_test on rank 0...
+  0%|          | 0/300 [00:00<?, ?it/s]100%|██████████| 300/300 [00:00<00:00, 3775.08it/s]
+2026-04-13:15:38:44,586 DEBUG    [evaluator.py:467] Task: chd_test; number of requests on this rank: 600
+2026-04-13:15:38:44,586 INFO     [evaluator.py:496] Running loglikelihood requests
+Running loglikelihood requests:   0%|          | 0/600 [00:00<?, ?it/s]Running loglikelihood requests:   0%|          | 1/600 [00:08<1:28:09,  8.83s/it]Traceback (most recent call last):
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/bin/lm_eval", line 6, in <module>
+    sys.exit(cli_evaluate())
+             ^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/__main__.py", line 382, in cli_evaluate
+    results = evaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/evaluator.py", line 303, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/evaluator.py", line 507, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/api/model.py", line 378, in loglikelihood
+    return self._loglikelihood_tokens(new_reqs, disable_tqdm=disable_tqdm)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/models/huggingface.py", line 1179, in _loglikelihood_tokens
+    self._model_call(batched_inps, **call_kwargs), dim=-1
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/models/huggingface.py", line 862, in _model_call
+    return self.model(inps).logits
+           ^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 449, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 384, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 234, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 169, in forward
+    attn_output, attn_weights = attention_interface(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/transformers/integrations/sdpa_attention.py", line 96, in sdpa_attention_forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 14.96 GiB. GPU 0 has a total capacity of 79.25 GiB of which 7.53 GiB is free. Including non-PyTorch memory, this process has 71.72 GiB memory in use. Of the allocated memory 45.35 GiB is allocated by PyTorch, and 25.87 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Running loglikelihood requests:   3%|▎         | 16/600 [00:09<05:45,  1.69it/s] 

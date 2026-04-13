@@ -1,0 +1,60 @@
+2026-04-12:16:46:33,099 INFO     [__main__.py:279] Verbosity set to DEBUG
+2026-04-12:16:46:33,099 INFO     [__main__.py:303] Including path: ./tasks/chinese
+2026-04-12:16:46:40,624 INFO     [__main__.py:376] Selected Tasks: ['zh-fineval']
+2026-04-12:16:46:40,629 INFO     [evaluator.py:164] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-04-12:16:46:40,629 INFO     [evaluator.py:201] Initializing hf model, with arguments: {'pretrained': '/persist_data/home/maoweijiang/model/Qwen2.5-0.5B', 'trust_remote_code': True}
+2026-04-12:16:46:40,955 INFO     [huggingface.py:132] Using device 'cuda:0'
+2026-04-12:16:46:40,961 DEBUG    [huggingface.py:485] Using model type 'causal'
+2026-04-12:16:46:41,281 INFO     [huggingface.py:369] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+`torch_dtype` is deprecated! Use `dtype` instead!
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:46:42,120 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Traceback (most recent call last):
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/bin/lm_eval", line 6, in <module>
+    sys.exit(cli_evaluate())
+             ^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/__main__.py", line 382, in cli_evaluate
+    results = evaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/utils.py", line 402, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/evaluator.py", line 235, in simple_evaluate
+    task_dict = get_task_dict(tasks, task_manager)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 618, in get_task_dict
+    task_name_from_string_dict = task_manager.load_task_or_group(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 414, in load_task_or_group
+    collections.ChainMap(*map(self._load_individual_task_or_group, task_list))
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 332, in _load_individual_task_or_group
+    collections.ChainMap(*map(fn, reversed(subtask_list)))
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 314, in _load_individual_task_or_group
+    return _load_task(task_config, task=name_or_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/tasks/__init__.py", line 280, in _load_task
+    task_object = ConfigurableTask(config=config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/api/task.py", line 819, in __init__
+    self.download(self.config.dataset_kwargs)
+  File "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen/finlm_eval/lm_eval/api/task.py", line 926, in download
+    self.dataset = datasets.load_dataset(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/datasets/load.py", line 1688, in load_dataset
+    builder_instance = load_dataset_builder(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/datasets/load.py", line 1353, in load_dataset_builder
+    builder_instance: DatasetBuilder = builder_cls(
+                                       ^^^^^^^^^^^^
+  File "/persist_data/home/maoweijiang/miniconda3/envs/finben/lib/python3.12/site-packages/datasets/builder.py", line 385, in __init__
+    os.makedirs(self._cache_dir_root, exist_ok=True)
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  [Previous line repeated 1 more time]
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [Errno 13] Permission denied: '/data'

@@ -3,7 +3,7 @@
 #export CUDA_VISIBLE_DIVICES=0
 #export HF_ENDPOINT=https://hf-mirror.com
 #export HF_DATASETS_OFFLINE=1
-model_path=../cfinllm/model/Qwen2.5-1.5B
+model_path="/remote_dir/home/maoweijiang/models/Qwen3.5-4B"
 
 lm_eval --model hf \
     --model_args pretrained=$model_path \

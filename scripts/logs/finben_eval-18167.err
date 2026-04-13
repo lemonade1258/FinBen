@@ -1,0 +1,421 @@
+2026-04-12:16:56:01,496 INFO     [__main__.py:279] Verbosity set to DEBUG
+2026-04-12:16:56:01,496 INFO     [__main__.py:303] Including path: ./tasks/chinese
+2026-04-12:16:56:09,515 INFO     [__main__.py:376] Selected Tasks: ['zh-fineval']
+2026-04-12:16:56:09,522 INFO     [evaluator.py:164] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234 | Setting fewshot manual seed to 1234
+2026-04-12:16:56:09,522 INFO     [evaluator.py:201] Initializing hf model, with arguments: {'pretrained': '/persist_data/home/maoweijiang/model/Qwen2.5-0.5B', 'trust_remote_code': True}
+2026-04-12:16:56:09,794 INFO     [huggingface.py:132] Using device 'cuda:0'
+2026-04-12:16:56:09,801 DEBUG    [huggingface.py:485] Using model type 'causal'
+2026-04-12:16:56:10,127 INFO     [huggingface.py:369] Model parallel was set to False, max memory was not set, and device map was set to {'': 'cuda:0'}
+`torch_dtype` is deprecated! Use `dtype` instead!
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:10,896 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 163.59 examples/s]
+Generating valid split:   0%|          | 0/25 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 25/25 [00:00<00:00, 3160.93 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:16,527 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 416.51 examples/s]
+Generating valid split:   0%|          | 0/32 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 32/32 [00:00<00:00, 2818.99 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:20,812 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 457.27 examples/s]
+Generating valid split:   0%|          | 0/26 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 26/26 [00:00<00:00, 2427.15 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:25,227 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 508.82 examples/s]
+Generating valid split:   0%|          | 0/18 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 18/18 [00:00<00:00, 1550.54 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:29,548 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 433.26 examples/s]
+Generating valid split:   0%|          | 0/20 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 20/20 [00:00<00:00, 1629.68 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:34,269 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 374.65 examples/s]
+Generating valid split:   0%|          | 0/28 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 28/28 [00:00<00:00, 2575.00 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:38,762 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 507.04 examples/s]
+Generating valid split:   0%|          | 0/34 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 34/34 [00:00<00:00, 3276.88 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:43,229 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 417.42 examples/s]
+Generating valid split:   0%|          | 0/21 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 21/21 [00:00<00:00, 1838.53 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:47,553 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 379.72 examples/s]
+Generating valid split:   0%|          | 0/68 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 68/68 [00:00<00:00, 6228.44 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:52,184 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 496.14 examples/s]
+Generating valid split:   0%|          | 0/37 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 37/37 [00:00<00:00, 3155.66 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:56:56,805 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 453.41 examples/s]
+Generating valid split:   0%|          | 0/22 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 22/22 [00:00<00:00, 2519.38 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:01,157 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 305.97 examples/s]
+Generating valid split:   0%|          | 0/35 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 35/35 [00:00<00:00, 2615.93 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:05,680 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 430.87 examples/s]
+Generating valid split:   0%|          | 0/18 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 18/18 [00:00<00:00, 1456.92 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:10,083 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 528.53 examples/s]
+Generating valid split:   0%|          | 0/34 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 34/34 [00:00<00:00, 3467.13 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:14,520 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 59.23 examples/s]
+Generating valid split:   0%|          | 0/40 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 40/40 [00:00<00:00, 3613.21 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:19,056 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 394.22 examples/s]
+Generating valid split:   0%|          | 0/40 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 40/40 [00:00<00:00, 3420.57 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:23,635 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 530.03 examples/s]
+Generating valid split:   0%|          | 0/20 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 20/20 [00:00<00:00, 2052.46 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:27,968 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 477.08 examples/s]
+Generating valid split:   0%|          | 0/36 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 36/36 [00:00<00:00, 3442.97 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:32,321 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 516.41 examples/s]
+Generating valid split:   0%|          | 0/24 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 24/24 [00:00<00:00, 2098.51 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:36,963 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 465.56 examples/s]
+Generating valid split:   0%|          | 0/45 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 45/45 [00:00<00:00, 1279.34 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:41,490 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 478.22 examples/s]
+Generating valid split:   0%|          | 0/25 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 25/25 [00:00<00:00, 2062.02 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:45,928 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 230.94 examples/s]
+Generating valid split:   0%|          | 0/17 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 17/17 [00:00<00:00, 1590.45 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:50,641 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 490.58 examples/s]
+Generating valid split:   0%|          | 0/23 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 23/23 [00:00<00:00, 2609.46 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:55,207 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 504.41 examples/s]
+Generating valid split:   0%|          | 0/39 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 39/39 [00:00<00:00, 3642.92 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:57:59,889 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 437.17 examples/s]
+Generating valid split:   0%|          | 0/39 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 39/39 [00:00<00:00, 3602.40 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:04,288 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 507.82 examples/s]
+Generating valid split:   0%|          | 0/31 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 31/31 [00:00<00:00, 2639.43 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:09,080 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 481.63 examples/s]
+Generating valid split:   0%|          | 0/38 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 38/38 [00:00<00:00, 3843.99 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:13,371 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 553.06 examples/s]
+Generating valid split:   0%|          | 0/36 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 36/36 [00:00<00:00, 3895.14 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:17,029 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 470.01 examples/s]
+Generating valid split:   0%|          | 0/26 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 26/26 [00:00<00:00, 2283.00 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:21,774 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 370.53 examples/s]
+Generating valid split:   0%|          | 0/29 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 29/29 [00:00<00:00, 2314.47 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:26,275 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 425.45 examples/s]
+Generating valid split:   0%|          | 0/33 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 33/33 [00:00<00:00, 2762.60 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:31,386 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 484.76 examples/s]
+Generating valid split:   0%|          | 0/116 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 116/116 [00:00<00:00, 9439.67 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:35,918 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 425.55 examples/s]
+Generating valid split:   0%|          | 0/33 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 33/33 [00:00<00:00, 2960.31 examples/s]
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+2026-04-12:16:58:40,633 ERROR    [load.py:1663] `trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'daishen/zh-fineval' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 413.17 examples/s]
+Generating valid split:   0%|          | 0/43 [00:00<?, ? examples/s]Generating valid split: 100%|██████████| 43/43 [00:00<00:00, 3803.27 examples/s]
+2026-04-12:16:58:45,579 INFO     [task.py:415] Building contexts for zh-fineval_monetary_finance on rank 0...
+  0%|          | 0/43 [00:00<?, ?it/s] 63%|██████▎   | 27/43 [00:00<00:00, 265.15it/s]100%|██████████| 43/43 [00:00<00:00, 326.12it/s]
+2026-04-12:16:58:45,718 DEBUG    [evaluator.py:467] Task: zh-fineval_monetary_finance; number of requests on this rank: 172
+2026-04-12:16:58:45,718 INFO     [task.py:415] Building contexts for zh-fineval_corporate_strategy_and_risk_management on rank 0...
+  0%|          | 0/33 [00:00<?, ?it/s]100%|██████████| 33/33 [00:00<00:00, 554.98it/s]
+2026-04-12:16:58:45,779 DEBUG    [evaluator.py:467] Task: zh-fineval_corporate_strategy_and_risk_management; number of requests on this rank: 132
+2026-04-12:16:58:45,779 INFO     [task.py:415] Building contexts for zh-fineval_banking_practitioner_qualification_certificate on rank 0...
+  0%|          | 0/116 [00:00<?, ?it/s] 49%|████▉     | 57/116 [00:00<00:00, 563.56it/s] 98%|█████████▊| 114/116 [00:00<00:00, 562.44it/s]100%|██████████| 116/116 [00:00<00:00, 562.48it/s]
+2026-04-12:16:58:45,989 DEBUG    [evaluator.py:467] Task: zh-fineval_banking_practitioner_qualification_certificate; number of requests on this rank: 464
+2026-04-12:16:58:45,989 INFO     [task.py:415] Building contexts for zh-fineval_insurance on rank 0...
+  0%|          | 0/33 [00:00<?, ?it/s]100%|██████████| 33/33 [00:00<00:00, 560.64it/s]
+2026-04-12:16:58:46,050 DEBUG    [evaluator.py:467] Task: zh-fineval_insurance; number of requests on this rank: 132
+2026-04-12:16:58:46,050 INFO     [task.py:415] Building contexts for zh-fineval_management_accounting on rank 0...
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 523.75it/s]
+2026-04-12:16:58:46,107 DEBUG    [evaluator.py:467] Task: zh-fineval_management_accounting; number of requests on this rank: 116
+2026-04-12:16:58:46,107 INFO     [task.py:415] Building contexts for zh-fineval_intermediate_financial_accounting on rank 0...
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 550.85it/s]
+2026-04-12:16:58:46,155 DEBUG    [evaluator.py:467] Task: zh-fineval_intermediate_financial_accounting; number of requests on this rank: 104
+2026-04-12:16:58:46,155 INFO     [task.py:415] Building contexts for zh-fineval_accounting on rank 0...
+  0%|          | 0/36 [00:00<?, ?it/s]100%|██████████| 36/36 [00:00<00:00, 554.04it/s]
+2026-04-12:16:58:46,222 DEBUG    [evaluator.py:467] Task: zh-fineval_accounting; number of requests on this rank: 144
+2026-04-12:16:58:46,222 INFO     [task.py:415] Building contexts for zh-fineval_investments on rank 0...
+  0%|          | 0/38 [00:00<?, ?it/s]100%|██████████| 38/38 [00:00<00:00, 552.90it/s]
+2026-04-12:16:58:46,292 DEBUG    [evaluator.py:467] Task: zh-fineval_investments; number of requests on this rank: 152
+2026-04-12:16:58:46,293 INFO     [task.py:415] Building contexts for zh-fineval_macroeconomics on rank 0...
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 554.30it/s]
+2026-04-12:16:58:46,350 DEBUG    [evaluator.py:467] Task: zh-fineval_macroeconomics; number of requests on this rank: 124
+2026-04-12:16:58:46,350 INFO     [task.py:415] Building contexts for zh-fineval_financial_markets on rank 0...
+  0%|          | 0/39 [00:00<?, ?it/s]100%|██████████| 39/39 [00:00<00:00, 556.78it/s]
+2026-04-12:16:58:46,422 DEBUG    [evaluator.py:467] Task: zh-fineval_financial_markets; number of requests on this rank: 156
+2026-04-12:16:58:46,422 INFO     [task.py:415] Building contexts for zh-fineval_futures_practitioner_qualification_certificate on rank 0...
+  0%|          | 0/39 [00:00<?, ?it/s]100%|██████████| 39/39 [00:00<00:00, 548.48it/s]
+2026-04-12:16:58:46,494 DEBUG    [evaluator.py:467] Task: zh-fineval_futures_practitioner_qualification_certificate; number of requests on this rank: 156
+2026-04-12:16:58:46,494 INFO     [task.py:415] Building contexts for zh-fineval_political_economy on rank 0...
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 552.19it/s]
+2026-04-12:16:58:46,537 DEBUG    [evaluator.py:467] Task: zh-fineval_political_economy; number of requests on this rank: 92
+2026-04-12:16:58:46,537 INFO     [task.py:415] Building contexts for zh-fineval_international_finance on rank 0...
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 548.44it/s]
+2026-04-12:16:58:46,569 DEBUG    [evaluator.py:467] Task: zh-fineval_international_finance; number of requests on this rank: 68
+2026-04-12:16:58:46,569 INFO     [task.py:415] Building contexts for zh-fineval_finance on rank 0...
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 550.55it/s]
+2026-04-12:16:58:46,616 DEBUG    [evaluator.py:467] Task: zh-fineval_finance; number of requests on this rank: 100
+2026-04-12:16:58:46,616 INFO     [task.py:415] Building contexts for zh-fineval_tax_law on rank 0...
+  0%|          | 0/45 [00:00<?, ?it/s]100%|██████████| 45/45 [00:00<00:00, 549.17it/s]
+2026-04-12:16:58:46,700 DEBUG    [evaluator.py:467] Task: zh-fineval_tax_law; number of requests on this rank: 180
+2026-04-12:16:58:46,700 INFO     [task.py:415] Building contexts for zh-fineval_financial_management on rank 0...
+  0%|          | 0/24 [00:00<?, ?it/s]100%|██████████| 24/24 [00:00<00:00, 554.49it/s]
+2026-04-12:16:58:46,744 DEBUG    [evaluator.py:467] Task: zh-fineval_financial_management; number of requests on this rank: 96
+2026-04-12:16:58:46,744 INFO     [task.py:415] Building contexts for zh-fineval_corporate_finance on rank 0...
+  0%|          | 0/36 [00:00<?, ?it/s]100%|██████████| 36/36 [00:00<00:00, 550.16it/s]
+2026-04-12:16:58:46,811 DEBUG    [evaluator.py:467] Task: zh-fineval_corporate_finance; number of requests on this rank: 144
+2026-04-12:16:58:46,811 INFO     [task.py:415] Building contexts for zh-fineval_international_economics on rank 0...
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 556.65it/s]
+2026-04-12:16:58:46,848 DEBUG    [evaluator.py:467] Task: zh-fineval_international_economics; number of requests on this rank: 80
+2026-04-12:16:58:46,848 INFO     [task.py:415] Building contexts for zh-fineval_public_finance on rank 0...
+  0%|          | 0/40 [00:00<?, ?it/s]100%|██████████| 40/40 [00:00<00:00, 559.58it/s]
+2026-04-12:16:58:46,921 DEBUG    [evaluator.py:467] Task: zh-fineval_public_finance; number of requests on this rank: 160
+2026-04-12:16:58:46,921 INFO     [task.py:415] Building contexts for zh-fineval_microeconomics on rank 0...
+  0%|          | 0/40 [00:00<?, ?it/s]100%|██████████| 40/40 [00:00<00:00, 557.38it/s]
+2026-04-12:16:58:46,995 DEBUG    [evaluator.py:467] Task: zh-fineval_microeconomics; number of requests on this rank: 160
+2026-04-12:16:58:46,995 INFO     [task.py:415] Building contexts for zh-fineval_cost_accounting on rank 0...
+  0%|          | 0/34 [00:00<?, ?it/s]100%|██████████| 34/34 [00:00<00:00, 548.43it/s]
+2026-04-12:16:58:47,059 DEBUG    [evaluator.py:467] Task: zh-fineval_cost_accounting; number of requests on this rank: 136
+2026-04-12:16:58:47,059 INFO     [task.py:415] Building contexts for zh-fineval_econometrics on rank 0...
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 555.13it/s]
+2026-04-12:16:58:47,092 DEBUG    [evaluator.py:467] Task: zh-fineval_econometrics; number of requests on this rank: 72
+2026-04-12:16:58:47,092 INFO     [task.py:415] Building contexts for zh-fineval_statistics on rank 0...
+  0%|          | 0/35 [00:00<?, ?it/s]100%|██████████| 35/35 [00:00<00:00, 562.12it/s]
+2026-04-12:16:58:47,156 DEBUG    [evaluator.py:467] Task: zh-fineval_statistics; number of requests on this rank: 140
+2026-04-12:16:58:47,156 INFO     [task.py:415] Building contexts for zh-fineval_securities_practitioner_qualification_certificate on rank 0...
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 558.24it/s]
+2026-04-12:16:58:47,196 DEBUG    [evaluator.py:467] Task: zh-fineval_securities_practitioner_qualification_certificate; number of requests on this rank: 88
+2026-04-12:16:58:47,197 INFO     [task.py:415] Building contexts for zh-fineval_china_actuary on rank 0...
+  0%|          | 0/37 [00:00<?, ?it/s]100%|██████████| 37/37 [00:00<00:00, 557.88it/s]
+2026-04-12:16:58:47,264 DEBUG    [evaluator.py:467] Task: zh-fineval_china_actuary; number of requests on this rank: 148
+2026-04-12:16:58:47,264 INFO     [task.py:415] Building contexts for zh-fineval_fund_qualification_certificate on rank 0...
+  0%|          | 0/68 [00:00<?, ?it/s] 84%|████████▍ | 57/68 [00:00<00:00, 563.05it/s]100%|██████████| 68/68 [00:00<00:00, 562.78it/s]
+2026-04-12:16:58:47,388 DEBUG    [evaluator.py:467] Task: zh-fineval_fund_qualification_certificate; number of requests on this rank: 272
+2026-04-12:16:58:47,388 INFO     [task.py:415] Building contexts for zh-fineval_advanced_financial_accounting on rank 0...
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 554.98it/s]
+2026-04-12:16:58:47,427 DEBUG    [evaluator.py:467] Task: zh-fineval_advanced_financial_accounting; number of requests on this rank: 84
+2026-04-12:16:58:47,427 INFO     [task.py:415] Building contexts for zh-fineval_certified_practising_accountant on rank 0...
+  0%|          | 0/34 [00:00<?, ?it/s]100%|██████████| 34/34 [00:00<00:00, 555.56it/s]
+2026-04-12:16:58:47,490 DEBUG    [evaluator.py:467] Task: zh-fineval_certified_practising_accountant; number of requests on this rank: 136
+2026-04-12:16:58:47,490 INFO     [task.py:415] Building contexts for zh-fineval_central_banking on rank 0...
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 561.10it/s]
+2026-04-12:16:58:47,541 DEBUG    [evaluator.py:467] Task: zh-fineval_central_banking; number of requests on this rank: 112
+2026-04-12:16:58:47,541 INFO     [task.py:415] Building contexts for zh-fineval_commercial_bank_finance on rank 0...
+  0%|          | 0/20 [00:00<?, ?it/s]100%|██████████| 20/20 [00:00<00:00, 560.67it/s]
+2026-04-12:16:58:47,578 DEBUG    [evaluator.py:467] Task: zh-fineval_commercial_bank_finance; number of requests on this rank: 80
+2026-04-12:16:58:47,578 INFO     [task.py:415] Building contexts for zh-fineval_certified_management_accountant on rank 0...
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 558.38it/s]
+2026-04-12:16:58:47,611 DEBUG    [evaluator.py:467] Task: zh-fineval_certified_management_accountant; number of requests on this rank: 72
+2026-04-12:16:58:47,611 INFO     [task.py:415] Building contexts for zh-fineval_financial_engineering on rank 0...
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 558.93it/s]
+2026-04-12:16:58:47,659 DEBUG    [evaluator.py:467] Task: zh-fineval_financial_engineering; number of requests on this rank: 104
+2026-04-12:16:58:47,659 INFO     [task.py:415] Building contexts for zh-fineval_auditing on rank 0...
+  0%|          | 0/32 [00:00<?, ?it/s]100%|██████████| 32/32 [00:00<00:00, 561.77it/s]
+2026-04-12:16:58:47,717 DEBUG    [evaluator.py:467] Task: zh-fineval_auditing; number of requests on this rank: 128
+2026-04-12:16:58:47,717 INFO     [task.py:415] Building contexts for zh-fineval_economic_law on rank 0...
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 556.15it/s]
+2026-04-12:16:58:47,764 DEBUG    [evaluator.py:467] Task: zh-fineval_economic_law; number of requests on this rank: 100
+2026-04-12:16:58:47,764 INFO     [evaluator.py:496] Running loglikelihood requests
+Running loglikelihood requests:   0%|          | 0/4604 [00:00<?, ?it/s]Running loglikelihood requests:   0%|          | 1/4604 [00:01<2:17:38,  1.79s/it]Running loglikelihood requests:   0%|          | 22/4604 [00:01<04:46, 15.98it/s] Running loglikelihood requests:   1%|          | 35/4604 [00:03<06:06, 12.46it/s]Running loglikelihood requests:   1%|          | 56/4604 [00:03<03:08, 24.16it/s]Running loglikelihood requests:   1%|▏         | 69/4604 [00:04<04:29, 16.80it/s]Running loglikelihood requests:   2%|▏         | 90/4604 [00:04<02:45, 27.33it/s]Running loglikelihood requests:   2%|▏         | 103/4604 [00:05<03:49, 19.58it/s]Running loglikelihood requests:   3%|▎         | 124/4604 [00:05<02:29, 30.02it/s]Running loglikelihood requests:   3%|▎         | 137/4604 [00:07<03:31, 21.15it/s]Running loglikelihood requests:   3%|▎         | 158/4604 [00:07<02:20, 31.63it/s]Running loglikelihood requests:   4%|▎         | 171/4604 [00:08<03:13, 22.91it/s]Running loglikelihood requests:   4%|▍         | 192/4604 [00:08<02:10, 33.78it/s]Running loglikelihood requests:   4%|▍         | 205/4604 [00:09<03:00, 24.32it/s]Running loglikelihood requests:   5%|▍         | 225/4604 [00:10<03:15, 22.35it/s]Running loglikelihood requests:   5%|▌         | 246/4604 [00:10<02:15, 32.19it/s]Running loglikelihood requests:   6%|▌         | 258/4604 [00:11<03:02, 23.85it/s]Running loglikelihood requests:   6%|▌         | 279/4604 [00:11<02:04, 34.69it/s]Running loglikelihood requests:   6%|▋         | 291/4604 [00:12<02:54, 24.76it/s]Running loglikelihood requests:   7%|▋         | 312/4604 [00:12<01:58, 36.18it/s]Running loglikelihood requests:   7%|▋         | 325/4604 [00:13<02:45, 25.88it/s]Running loglikelihood requests:   8%|▊         | 346/4604 [00:13<01:53, 37.64it/s]Running loglikelihood requests:   8%|▊         | 359/4604 [00:14<02:40, 26.48it/s]Running loglikelihood requests:   8%|▊         | 380/4604 [00:14<01:49, 38.41it/s]Running loglikelihood requests:   9%|▊         | 393/4604 [00:15<02:37, 26.77it/s]Running loglikelihood requests:   9%|▉         | 414/4604 [00:15<01:48, 38.79it/s]Running loglikelihood requests:   9%|▉         | 427/4604 [00:16<02:34, 26.98it/s]Running loglikelihood requests:  10%|▉         | 448/4604 [00:16<01:46, 39.06it/s]Running loglikelihood requests:  10%|█         | 461/4604 [00:17<02:32, 27.22it/s]Running loglikelihood requests:  10%|█         | 481/4604 [00:18<02:48, 24.54it/s]Running loglikelihood requests:  11%|█         | 502/4604 [00:18<01:56, 35.07it/s]Running loglikelihood requests:  11%|█         | 514/4604 [00:19<02:40, 25.53it/s]Running loglikelihood requests:  12%|█▏        | 535/4604 [00:19<01:50, 36.94it/s]Running loglikelihood requests:  12%|█▏        | 547/4604 [00:20<02:35, 26.16it/s]Running loglikelihood requests:  12%|█▏        | 568/4604 [00:20<01:46, 38.07it/s]Running loglikelihood requests:  13%|█▎        | 581/4604 [00:21<02:29, 26.97it/s]Running loglikelihood requests:  13%|█▎        | 602/4604 [00:21<01:42, 39.10it/s]Running loglikelihood requests:  13%|█▎        | 615/4604 [00:22<02:25, 27.38it/s]Running loglikelihood requests:  14%|█▍        | 636/4604 [00:22<01:40, 39.63it/s]Running loglikelihood requests:  14%|█▍        | 649/4604 [00:23<02:20, 28.06it/s]Running loglikelihood requests:  15%|█▍        | 670/4604 [00:23<01:37, 40.52it/s]Running loglikelihood requests:  15%|█▍        | 683/4604 [00:24<02:18, 28.40it/s]Running loglikelihood requests:  15%|█▌        | 704/4604 [00:24<01:35, 40.97it/s]Running loglikelihood requests:  16%|█▌        | 717/4604 [00:25<02:14, 28.86it/s]Running loglikelihood requests:  16%|█▌        | 737/4604 [00:26<02:28, 26.12it/s]Running loglikelihood requests:  16%|█▋        | 758/4604 [00:26<01:43, 37.19it/s]Running loglikelihood requests:  17%|█▋        | 770/4604 [00:27<02:19, 27.42it/s]Running loglikelihood requests:  17%|█▋        | 791/4604 [00:27<01:36, 39.48it/s]Running loglikelihood requests:  17%|█▋        | 803/4604 [00:28<02:14, 28.17it/s]Running loglikelihood requests:  18%|█▊        | 824/4604 [00:28<01:32, 40.78it/s]Running loglikelihood requests:  18%|█▊        | 837/4604 [00:29<02:09, 29.10it/s]Running loglikelihood requests:  19%|█▊        | 858/4604 [00:29<01:29, 41.97it/s]Running loglikelihood requests:  19%|█▉        | 871/4604 [00:30<02:05, 29.63it/s]Running loglikelihood requests:  19%|█▉        | 892/4604 [00:30<01:27, 42.64it/s]Running loglikelihood requests:  20%|█▉        | 905/4604 [00:31<02:03, 29.89it/s]Running loglikelihood requests:  20%|██        | 926/4604 [00:31<01:25, 42.97it/s]Running loglikelihood requests:  20%|██        | 939/4604 [00:32<02:00, 30.35it/s]Running loglikelihood requests:  21%|██        | 960/4604 [00:32<01:23, 43.57it/s]Running loglikelihood requests:  21%|██        | 973/4604 [00:33<01:58, 30.57it/s]Running loglikelihood requests:  22%|██▏       | 993/4604 [00:34<02:10, 27.61it/s]Running loglikelihood requests:  22%|██▏       | 1014/4604 [00:34<01:31, 39.17it/s]Running loglikelihood requests:  22%|██▏       | 1026/4604 [00:35<02:04, 28.71it/s]Running loglikelihood requests:  23%|██▎       | 1047/4604 [00:35<01:26, 41.21it/s]Running loglikelihood requests:  23%|██▎       | 1059/4604 [00:36<01:58, 29.94it/s]Running loglikelihood requests:  23%|██▎       | 1080/4604 [00:36<01:21, 43.16it/s]Running loglikelihood requests:  24%|██▎       | 1093/4604 [00:36<01:52, 31.16it/s]Running loglikelihood requests:  24%|██▍       | 1114/4604 [00:37<01:18, 44.71it/s]Running loglikelihood requests:  24%|██▍       | 1127/4604 [00:37<01:48, 32.04it/s]Running loglikelihood requests:  25%|██▍       | 1148/4604 [00:37<01:15, 45.83it/s]Running loglikelihood requests:  25%|██▌       | 1161/4604 [00:38<01:45, 32.49it/s]Running loglikelihood requests:  26%|██▌       | 1182/4604 [00:38<01:13, 46.40it/s]Running loglikelihood requests:  26%|██▌       | 1195/4604 [00:39<01:44, 32.74it/s]Running loglikelihood requests:  26%|██▋       | 1216/4604 [00:39<01:12, 46.72it/s]Running loglikelihood requests:  27%|██▋       | 1229/4604 [00:40<01:42, 32.87it/s]Running loglikelihood requests:  27%|██▋       | 1249/4604 [00:41<01:52, 29.74it/s]Running loglikelihood requests:  28%|██▊       | 1270/4604 [00:41<01:19, 41.98it/s]Running loglikelihood requests:  28%|██▊       | 1282/4604 [00:42<01:47, 30.93it/s]Running loglikelihood requests:  28%|██▊       | 1303/4604 [00:42<01:14, 44.16it/s]Running loglikelihood requests:  29%|██▊       | 1316/4604 [00:42<01:41, 32.36it/s]Running loglikelihood requests:  29%|██▉       | 1337/4604 [00:42<01:10, 46.12it/s]Running loglikelihood requests:  29%|██▉       | 1350/4604 [00:43<01:38, 33.11it/s]Running loglikelihood requests:  30%|██▉       | 1371/4604 [00:43<01:08, 47.15it/s]Running loglikelihood requests:  30%|███       | 1384/4604 [00:44<01:36, 33.50it/s]Running loglikelihood requests:  31%|███       | 1405/4604 [00:44<01:07, 47.69it/s]Running loglikelihood requests:  31%|███       | 1418/4604 [00:45<01:35, 33.50it/s]Running loglikelihood requests:  31%|███▏      | 1439/4604 [00:45<01:06, 47.70it/s]Running loglikelihood requests:  32%|███▏      | 1452/4604 [00:46<01:33, 33.60it/s]Running loglikelihood requests:  32%|███▏      | 1473/4604 [00:47<01:41, 30.78it/s]Running loglikelihood requests:  32%|███▏      | 1494/4604 [00:47<01:12, 43.14it/s]Running loglikelihood requests:  33%|███▎      | 1506/4604 [00:47<01:37, 31.72it/s]Running loglikelihood requests:  33%|███▎      | 1527/4604 [00:48<01:08, 45.08it/s]Running loglikelihood requests:  33%|███▎      | 1540/4604 [00:48<01:33, 32.75it/s]Running loglikelihood requests:  34%|███▍      | 1561/4604 [00:48<01:05, 46.57it/s]Running loglikelihood requests:  34%|███▍      | 1574/4604 [00:49<01:31, 33.29it/s]Running loglikelihood requests:  35%|███▍      | 1595/4604 [00:49<01:03, 47.37it/s]Running loglikelihood requests:  35%|███▍      | 1608/4604 [00:50<01:28, 33.87it/s]Running loglikelihood requests:  35%|███▌      | 1629/4604 [00:50<01:01, 48.16it/s]Running loglikelihood requests:  36%|███▌      | 1642/4604 [00:51<01:26, 34.17it/s]Running loglikelihood requests:  36%|███▌      | 1663/4604 [00:51<01:00, 48.57it/s]Running loglikelihood requests:  36%|███▋      | 1676/4604 [00:52<01:24, 34.63it/s]Running loglikelihood requests:  37%|███▋      | 1697/4604 [00:52<01:31, 31.88it/s]Running loglikelihood requests:  37%|███▋      | 1718/4604 [00:52<01:04, 44.57it/s]Running loglikelihood requests:  38%|███▊      | 1730/4604 [00:53<01:27, 32.94it/s]Running loglikelihood requests:  38%|███▊      | 1751/4604 [00:53<01:01, 46.67it/s]Running loglikelihood requests:  38%|███▊      | 1764/4604 [00:54<01:22, 34.36it/s]Running loglikelihood requests:  39%|███▉      | 1785/4604 [00:54<00:57, 48.67it/s]Running loglikelihood requests:  39%|███▉      | 1798/4604 [00:55<01:19, 35.12it/s]Running loglikelihood requests:  40%|███▉      | 1819/4604 [00:55<00:55, 49.74it/s]Running loglikelihood requests:  40%|███▉      | 1832/4604 [00:56<01:18, 35.53it/s]Running loglikelihood requests:  40%|████      | 1853/4604 [00:56<00:54, 50.32it/s]Running loglikelihood requests:  41%|████      | 1866/4604 [00:56<01:16, 35.79it/s]Running loglikelihood requests:  41%|████      | 1887/4604 [00:56<00:53, 50.67it/s]Running loglikelihood requests:  41%|████▏     | 1900/4604 [00:57<01:14, 36.27it/s]Running loglikelihood requests:  42%|████▏     | 1921/4604 [00:58<01:20, 33.36it/s]Running loglikelihood requests:  42%|████▏     | 1942/4604 [00:58<00:57, 46.48it/s]Running loglikelihood requests:  42%|████▏     | 1954/4604 [00:59<01:16, 34.71it/s]Running loglikelihood requests:  43%|████▎     | 1975/4604 [00:59<00:53, 48.97it/s]Running loglikelihood requests:  43%|████▎     | 1988/4604 [00:59<01:12, 36.02it/s]Running loglikelihood requests:  44%|████▎     | 2009/4604 [01:00<00:51, 50.82it/s]Running loglikelihood requests:  44%|████▍     | 2022/4604 [01:00<01:09, 36.96it/s]Running loglikelihood requests:  44%|████▍     | 2043/4604 [01:00<00:49, 52.11it/s]Running loglikelihood requests:  45%|████▍     | 2056/4604 [01:01<01:08, 37.33it/s]Running loglikelihood requests:  45%|████▌     | 2077/4604 [01:01<00:48, 52.63it/s]Running loglikelihood requests:  45%|████▌     | 2090/4604 [01:02<01:06, 37.89it/s]Running loglikelihood requests:  46%|████▌     | 2111/4604 [01:02<00:46, 53.37it/s]Running loglikelihood requests:  46%|████▌     | 2124/4604 [01:02<01:04, 38.16it/s]Running loglikelihood requests:  47%|████▋     | 2145/4604 [01:03<01:09, 35.14it/s]Running loglikelihood requests:  47%|████▋     | 2166/4604 [01:03<00:49, 48.76it/s]Running loglikelihood requests:  47%|████▋     | 2178/4604 [01:04<01:06, 36.26it/s]Running loglikelihood requests:  48%|████▊     | 2199/4604 [01:04<00:47, 50.96it/s]Running loglikelihood requests:  48%|████▊     | 2212/4604 [01:05<01:03, 37.52it/s]Running loglikelihood requests:  49%|████▊     | 2233/4604 [01:05<00:44, 52.75it/s]Running loglikelihood requests:  49%|████▉     | 2246/4604 [01:05<01:01, 38.22it/s]Running loglikelihood requests:  49%|████▉     | 2267/4604 [01:05<00:43, 53.72it/s]Running loglikelihood requests:  50%|████▉     | 2280/4604 [01:06<01:00, 38.57it/s]Running loglikelihood requests:  50%|████▉     | 2301/4604 [01:06<00:42, 54.21it/s]Running loglikelihood requests:  50%|█████     | 2314/4604 [01:07<00:59, 38.74it/s]Running loglikelihood requests:  51%|█████     | 2335/4604 [01:07<00:41, 54.46it/s]Running loglikelihood requests:  51%|█████     | 2348/4604 [01:08<00:58, 38.81it/s]Running loglikelihood requests:  51%|█████▏    | 2369/4604 [01:08<01:02, 35.57it/s]Running loglikelihood requests:  52%|█████▏    | 2390/4604 [01:08<00:44, 49.31it/s]Running loglikelihood requests:  52%|█████▏    | 2402/4604 [01:09<00:59, 37.01it/s]Running loglikelihood requests:  53%|█████▎    | 2423/4604 [01:09<00:42, 51.93it/s]Running loglikelihood requests:  53%|█████▎    | 2436/4604 [01:10<00:56, 38.41it/s]Running loglikelihood requests:  53%|█████▎    | 2457/4604 [01:10<00:39, 53.89it/s]Running loglikelihood requests:  54%|█████▎    | 2470/4604 [01:10<00:54, 39.17it/s]Running loglikelihood requests:  54%|█████▍    | 2491/4604 [01:11<00:38, 54.93it/s]Running loglikelihood requests:  54%|█████▍    | 2504/4604 [01:11<00:53, 39.55it/s]Running loglikelihood requests:  55%|█████▍    | 2525/4604 [01:11<00:37, 55.46it/s]Running loglikelihood requests:  55%|█████▌    | 2538/4604 [01:12<00:51, 39.87it/s]Running loglikelihood requests:  56%|█████▌    | 2559/4604 [01:12<00:36, 55.89it/s]Running loglikelihood requests:  56%|█████▌    | 2572/4604 [01:13<00:50, 40.03it/s]Running loglikelihood requests:  56%|█████▋    | 2593/4604 [01:13<00:54, 36.74it/s]Running loglikelihood requests:  57%|█████▋    | 2614/4604 [01:13<00:39, 50.80it/s]Running loglikelihood requests:  57%|█████▋    | 2626/4604 [01:14<00:52, 37.80it/s]Running loglikelihood requests:  57%|█████▋    | 2647/4604 [01:14<00:36, 52.94it/s]Running loglikelihood requests:  58%|█████▊    | 2660/4604 [01:15<00:49, 38.98it/s]Running loglikelihood requests:  58%|█████▊    | 2681/4604 [01:15<00:35, 54.61it/s]Running loglikelihood requests:  59%|█████▊    | 2694/4604 [01:15<00:47, 40.24it/s]Running loglikelihood requests:  59%|█████▉    | 2715/4604 [01:16<00:33, 56.29it/s]Running loglikelihood requests:  59%|█████▉    | 2728/4604 [01:16<00:45, 40.90it/s]Running loglikelihood requests:  60%|█████▉    | 2749/4604 [01:16<00:32, 57.16it/s]Running loglikelihood requests:  60%|█████▉    | 2762/4604 [01:17<00:44, 41.24it/s]Running loglikelihood requests:  60%|██████    | 2783/4604 [01:17<00:31, 57.61it/s]Running loglikelihood requests:  61%|██████    | 2796/4604 [01:17<00:43, 41.54it/s]Running loglikelihood requests:  61%|██████    | 2817/4604 [01:18<00:46, 38.20it/s]Running loglikelihood requests:  62%|██████▏   | 2838/4604 [01:18<00:33, 52.64it/s]Running loglikelihood requests:  62%|██████▏   | 2850/4604 [01:19<00:44, 39.34it/s]Running loglikelihood requests:  62%|██████▏   | 2871/4604 [01:19<00:31, 54.89it/s]Running loglikelihood requests:  63%|██████▎   | 2884/4604 [01:20<00:42, 40.57it/s]Running loglikelihood requests:  63%|██████▎   | 2905/4604 [01:20<00:30, 56.62it/s]Running loglikelihood requests:  63%|██████▎   | 2918/4604 [01:20<00:40, 41.34it/s]Running loglikelihood requests:  64%|██████▍   | 2939/4604 [01:20<00:28, 57.68it/s]Running loglikelihood requests:  64%|██████▍   | 2952/4604 [01:21<00:39, 41.72it/s]Running loglikelihood requests:  65%|██████▍   | 2973/4604 [01:21<00:28, 58.20it/s]Running loglikelihood requests:  65%|██████▍   | 2986/4604 [01:22<00:38, 41.93it/s]Running loglikelihood requests:  65%|██████▌   | 3007/4604 [01:22<00:27, 58.49it/s]Running loglikelihood requests:  66%|██████▌   | 3020/4604 [01:22<00:37, 42.04it/s]Running loglikelihood requests:  66%|██████▌   | 3041/4604 [01:23<00:40, 38.60it/s]Running loglikelihood requests:  67%|██████▋   | 3062/4604 [01:23<00:29, 53.15it/s]Running loglikelihood requests:  67%|██████▋   | 3074/4604 [01:24<00:38, 40.04it/s]Running loglikelihood requests:  67%|██████▋   | 3095/4604 [01:24<00:27, 55.77it/s]Running loglikelihood requests:  68%|██████▊   | 3108/4604 [01:24<00:36, 41.37it/s]Running loglikelihood requests:  68%|██████▊   | 3129/4604 [01:24<00:25, 57.63it/s]Running loglikelihood requests:  68%|██████▊   | 3142/4604 [01:25<00:34, 42.16it/s]Running loglikelihood requests:  69%|██████▊   | 3163/4604 [01:25<00:24, 58.71it/s]Running loglikelihood requests:  69%|██████▉   | 3176/4604 [01:26<00:33, 42.57it/s]Running loglikelihood requests:  69%|██████▉   | 3197/4604 [01:26<00:23, 59.27it/s]Running loglikelihood requests:  70%|██████▉   | 3210/4604 [01:26<00:32, 42.80it/s]Running loglikelihood requests:  70%|███████   | 3231/4604 [01:26<00:23, 59.57it/s]Running loglikelihood requests:  70%|███████   | 3244/4604 [01:27<00:31, 43.38it/s]Running loglikelihood requests:  71%|███████   | 3265/4604 [01:28<00:33, 40.04it/s]Running loglikelihood requests:  71%|███████▏  | 3286/4604 [01:28<00:23, 54.95it/s]Running loglikelihood requests:  72%|███████▏  | 3298/4604 [01:28<00:31, 41.27it/s]Running loglikelihood requests:  72%|███████▏  | 3319/4604 [01:28<00:22, 57.33it/s]Running loglikelihood requests:  72%|███████▏  | 3332/4604 [01:29<00:29, 42.59it/s]Running loglikelihood requests:  73%|███████▎  | 3353/4604 [01:29<00:21, 59.16it/s]Running loglikelihood requests:  73%|███████▎  | 3366/4604 [01:29<00:28, 43.42it/s]Running loglikelihood requests:  74%|███████▎  | 3386/4604 [01:30<00:20, 59.26it/s]Running loglikelihood requests:  74%|███████▍  | 3399/4604 [01:30<00:27, 43.28it/s]Running loglikelihood requests:  74%|███████▍  | 3420/4604 [01:30<00:19, 60.34it/s]Running loglikelihood requests:  75%|███████▍  | 3433/4604 [01:31<00:26, 43.79it/s]Running loglikelihood requests:  75%|███████▌  | 3454/4604 [01:31<00:18, 60.90it/s]Running loglikelihood requests:  75%|███████▌  | 3467/4604 [01:31<00:25, 44.88it/s]Running loglikelihood requests:  76%|███████▌  | 3488/4604 [01:32<00:17, 62.22it/s]Running loglikelihood requests:  76%|███████▌  | 3502/4604 [01:32<00:23, 46.09it/s]Running loglikelihood requests:  76%|███████▋  | 3521/4604 [01:33<00:26, 41.21it/s]Running loglikelihood requests:  77%|███████▋  | 3542/4604 [01:33<00:18, 56.73it/s]Running loglikelihood requests:  77%|███████▋  | 3554/4604 [01:33<00:24, 42.83it/s]Running loglikelihood requests:  78%|███████▊  | 3575/4604 [01:33<00:17, 59.46it/s]Running loglikelihood requests:  78%|███████▊  | 3588/4604 [01:34<00:22, 44.38it/s]Running loglikelihood requests:  78%|███████▊  | 3609/4604 [01:34<00:16, 61.47it/s]Running loglikelihood requests:  79%|███████▊  | 3622/4604 [01:35<00:21, 45.19it/s]Running loglikelihood requests:  79%|███████▉  | 3643/4604 [01:35<00:15, 62.52it/s]Running loglikelihood requests:  79%|███████▉  | 3656/4604 [01:35<00:20, 45.77it/s]Running loglikelihood requests:  80%|███████▉  | 3677/4604 [01:35<00:14, 63.25it/s]Running loglikelihood requests:  80%|████████  | 3691/4604 [01:36<00:19, 46.70it/s]Running loglikelihood requests:  81%|████████  | 3712/4604 [01:36<00:13, 64.13it/s]Running loglikelihood requests:  81%|████████  | 3726/4604 [01:36<00:18, 47.18it/s]Running loglikelihood requests:  81%|████████▏ | 3745/4604 [01:37<00:20, 41.96it/s]Running loglikelihood requests:  82%|████████▏ | 3766/4604 [01:37<00:14, 57.58it/s]Running loglikelihood requests:  82%|████████▏ | 3778/4604 [01:38<00:19, 43.40it/s]Running loglikelihood requests:  83%|████████▎ | 3799/4604 [01:38<00:13, 60.11it/s]Running loglikelihood requests:  83%|████████▎ | 3812/4604 [01:38<00:17, 45.33it/s]Running loglikelihood requests:  83%|████████▎ | 3833/4604 [01:38<00:12, 62.61it/s]Running loglikelihood requests:  84%|████████▎ | 3846/4604 [01:39<00:16, 46.36it/s]Running loglikelihood requests:  84%|████████▍ | 3867/4604 [01:39<00:11, 63.94it/s]Running loglikelihood requests:  84%|████████▍ | 3880/4604 [01:39<00:15, 46.89it/s]Running loglikelihood requests:  85%|████████▍ | 3901/4604 [01:40<00:10, 64.62it/s]Running loglikelihood requests:  85%|████████▌ | 3915/4604 [01:40<00:14, 48.21it/s]Running loglikelihood requests:  85%|████████▌ | 3936/4604 [01:40<00:10, 65.96it/s]Running loglikelihood requests:  86%|████████▌ | 3950/4604 [01:41<00:13, 48.88it/s]Running loglikelihood requests:  86%|████████▌ | 3969/4604 [01:41<00:14, 43.61it/s]Running loglikelihood requests:  87%|████████▋ | 3990/4604 [01:41<00:10, 59.61it/s]Running loglikelihood requests:  87%|████████▋ | 4002/4604 [01:42<00:13, 45.11it/s]Running loglikelihood requests:  87%|████████▋ | 4023/4604 [01:42<00:09, 62.22it/s]Running loglikelihood requests:  88%|████████▊ | 4036/4604 [01:42<00:12, 46.95it/s]Running loglikelihood requests:  88%|████████▊ | 4057/4604 [01:42<00:08, 64.60it/s]Running loglikelihood requests:  88%|████████▊ | 4070/4604 [01:43<00:10, 48.69it/s]Running loglikelihood requests:  89%|████████▉ | 4091/4604 [01:43<00:07, 66.79it/s]Running loglikelihood requests:  89%|████████▉ | 4105/4604 [01:44<00:09, 50.32it/s]Running loglikelihood requests:  90%|████████▉ | 4126/4604 [01:44<00:06, 68.49it/s]Running loglikelihood requests:  90%|████████▉ | 4140/4604 [01:44<00:09, 51.10it/s]Running loglikelihood requests:  90%|█████████ | 4161/4604 [01:45<00:09, 47.09it/s]Running loglikelihood requests:  91%|█████████ | 4182/4604 [01:45<00:06, 63.36it/s]Running loglikelihood requests:  91%|█████████ | 4194/4604 [01:45<00:08, 48.27it/s]Running loglikelihood requests:  92%|█████████▏| 4215/4604 [01:45<00:05, 65.81it/s]Running loglikelihood requests:  92%|█████████▏| 4228/4604 [01:46<00:07, 49.62it/s]Running loglikelihood requests:  92%|█████████▏| 4249/4604 [01:46<00:05, 67.71it/s]Running loglikelihood requests:  93%|█████████▎| 4262/4604 [01:46<00:06, 50.53it/s]Running loglikelihood requests:  93%|█████████▎| 4283/4604 [01:46<00:04, 68.94it/s]Running loglikelihood requests:  93%|█████████▎| 4297/4604 [01:47<00:05, 51.69it/s]Running loglikelihood requests:  94%|█████████▍| 4318/4604 [01:47<00:04, 70.10it/s]Running loglikelihood requests:  94%|█████████▍| 4332/4604 [01:48<00:05, 52.45it/s]Running loglikelihood requests:  95%|█████████▍| 4353/4604 [01:48<00:05, 48.54it/s]Running loglikelihood requests:  95%|█████████▌| 4374/4604 [01:48<00:03, 65.10it/s]Running loglikelihood requests:  95%|█████████▌| 4387/4604 [01:49<00:04, 50.50it/s]Running loglikelihood requests:  96%|█████████▌| 4408/4604 [01:49<00:02, 68.21it/s]Running loglikelihood requests:  96%|█████████▌| 4421/4604 [01:49<00:03, 51.61it/s]Running loglikelihood requests:  96%|█████████▋| 4442/4604 [01:49<00:02, 69.95it/s]Running loglikelihood requests:  97%|█████████▋| 4455/4604 [01:50<00:02, 52.83it/s]Running loglikelihood requests:  97%|█████████▋| 4476/4604 [01:50<00:01, 71.61it/s]Running loglikelihood requests:  98%|█████████▊| 4490/4604 [01:50<00:02, 53.96it/s]Running loglikelihood requests:  98%|█████████▊| 4511/4604 [01:50<00:01, 72.77it/s]Running loglikelihood requests:  98%|█████████▊| 4525/4604 [01:51<00:01, 54.83it/s]Running loglikelihood requests:  99%|█████████▊| 4545/4604 [01:51<00:01, 50.39it/s]Running loglikelihood requests:  99%|█████████▉| 4566/4604 [01:51<00:00, 67.55it/s]Running loglikelihood requests:  99%|█████████▉| 4579/4604 [01:52<00:00, 56.07it/s]Running loglikelihood requests: 100%|█████████▉| 4600/4604 [01:52<00:00, 74.93it/s]Running loglikelihood requests: 100%|██████████| 4604/4604 [01:52<00:00, 41.00it/s]
+2026-04-12:17:00:45,014 DEBUG    [huggingface.py:1415] Failed to get model SHA for /persist_data/home/maoweijiang/model/Qwen2.5-0.5B at revision main. Error: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/persist_data/home/maoweijiang/model/Qwen2.5-0.5B'. Use `repo_type` argument if needed.
+2026-04-12:17:00:52,022 INFO     [evaluation_tracker.py:206] Saving results aggregated
+2026-04-12:17:00:52,036 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_accounting
+2026-04-12:17:00:52,137 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_advanced_financial_accounting
+2026-04-12:17:00:52,206 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_auditing
+2026-04-12:17:00:52,326 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_banking_practitioner_qualification_certificate
+2026-04-12:17:00:52,587 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_central_banking
+2026-04-12:17:00:52,676 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_certified_management_accountant
+2026-04-12:17:00:52,776 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_certified_practising_accountant
+2026-04-12:17:00:52,886 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_china_actuary
+2026-04-12:17:00:53,005 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_commercial_bank_finance
+2026-04-12:17:00:53,086 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_corporate_finance
+2026-04-12:17:00:53,184 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_corporate_strategy_and_risk_management
+2026-04-12:17:00:53,263 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_cost_accounting
+2026-04-12:17:00:53,364 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_econometrics
+2026-04-12:17:00:53,530 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_economic_law
+2026-04-12:17:00:53,630 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_finance
+2026-04-12:17:00:53,775 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_financial_engineering
+2026-04-12:17:00:53,870 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_financial_management
+2026-04-12:17:00:53,978 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_financial_markets
+2026-04-12:17:00:54,123 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_fund_qualification_certificate
+2026-04-12:17:00:54,280 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_futures_practitioner_qualification_certificate
+2026-04-12:17:00:54,398 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_insurance
+2026-04-12:17:00:54,506 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_intermediate_financial_accounting
+2026-04-12:17:00:54,625 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_international_economics
+2026-04-12:17:00:54,707 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_international_finance
+2026-04-12:17:00:54,788 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_investments
+2026-04-12:17:00:54,922 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_macroeconomics
+2026-04-12:17:00:55,026 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_management_accounting
+2026-04-12:17:00:55,115 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_microeconomics
+2026-04-12:17:00:55,277 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_monetary_finance
+2026-04-12:17:00:55,421 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_political_economy
+2026-04-12:17:00:55,511 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_public_finance
+2026-04-12:17:00:55,657 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_securities_practitioner_qualification_certificate
+2026-04-12:17:00:55,742 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_statistics
+2026-04-12:17:00:55,859 INFO     [evaluation_tracker.py:287] Saving per-sample results for: zh-fineval_tax_law
