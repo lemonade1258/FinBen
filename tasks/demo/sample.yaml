@@ -1,12 +1,12 @@
-task: chd_test
-dataset_path: lxl3129/chd-test
+task: FINEVAL_test
+dataset_path: lxl3129/FINEVAL_test
 output_type: multiple_choice
-doc_to_text: '{{query}}'
+doc_to_text: "{{query}}"
 doc_to_choice: choices
 doc_to_target: gold
 test_split: train
 should_decontaminate: true
-doc_to_decontamination_query: '{{query}}'
+doc_to_decontamination_query: "{{query}}"
 metric_list:
   - metric: acc
     aggregation: mean
@@ -15,5 +15,5 @@ metric_list:
     aggregation: mean
     higher_is_better: true
 metadata:
-  version: '1.0'
+  version: "1.0"
 num_fewshot: 0

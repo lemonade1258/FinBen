@@ -1,0 +1,54 @@
+# ==========================================
+# lm-evaluation-harness 评估任务配置文件
+# ==========================================
+
+# 任务名称，在执行 lm_eval 命令时通过 --tasks 参数指定的名字
+task: FINEVAL_test-Annotation
+
+# 数据集路径，对应 Hugging Face 上的数据集仓库名称 (如果存在本地，也可以是本地路径)
+dataset_path: lxl3129/FINEVAL_test
+
+# 任务输出类型
+# multiple_choice 表示多选题，框架底层会基于 Loglikelihood（对数似然）来计算并比较各个选项的概率
+output_type: multiple_choice
+
+# 题目映射：将数据集中的哪一部分作为 Prompt 喂给模型。
+# 这里使用了 Jinja2 模板语法，提取原始 JSON 数据中的 `query` 字段内容
+doc_to_text: "{{query}}"
+
+# 选项映射：指定数据集中包含所有备选选项（如 A/B/C/D 对应文本）的字段名
+doc_to_choice: choices
+
+# 答案映射：指定数据集中包含正确答案（通常是选项的索引序号，如 0/1/2/3）的字段名
+doc_to_target: gold
+
+# 评估集划分：评估时使用数据集的哪一个 split。
+# 注意：这里配置的是 train，意味着它会去读取数据集的 train.jsonl / train 数据块来做评估
+test_split: train
+
+# 是否启用数据污染检测功能
+# 用于检查评估题目的文本是否不小心被混入过大语言模型的预训练数据中
+should_decontaminate: true
+
+# 污染检测依据：指定用来和模型训练集比对查重的文本内容，这里使用的是题目本身
+doc_to_decontamination_query: "{{query}}"
+
+# 评估指标配置列表
+metric_list:
+  - metric: acc # 指标 1：准确率 (Accuracy)，模型选对的比例
+    aggregation: mean # 聚合方式：对所有测试样本的得分求平均值
+    higher_is_better: true # 极性：数值越高，代表模型表现越好
+
+  - metric:
+      acc_norm # 指标 2：归一化准确率 (Normalized Accuracy)
+      # 机制：将选项的对数概率除以该选项的 token 长度。常用于消除模型偏好“较短”或“较长”选项带来的偏差
+    aggregation: mean # 聚合方式：求平均值
+    higher_is_better: true # 极性：数值越高越好
+
+# 元数据信息，方便日后版本管理和回溯
+metadata:
+  version: "1.0" # 当前配置的版本号
+
+# Few-shot 设定：题目之前拼接的示例数量
+# 0 表示 Zero-shot（零样本评估），即让模型直接做题，不给它看任何参考例题
+num_fewshot: 0

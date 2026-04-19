@@ -25,7 +25,9 @@ export HF_ENDPOINT=https://hf-mirror.com
 export HF_HOME="/remote_dir/home/maoweijiang/.cache/huggingface"
 export HF_DATASETS_CACHE="/remote_dir/home/maoweijiang/.cache/huggingface/datasets"
 
-export PYTORCH_ALLOC_CONF=expandable_segments:True
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
+export LD_LIBRARY_PATH="$CONDA_PREFIX/lib:$LD_LIBRARY_PATH"
 
 # 4) 进入项目根目录
 cd "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen"
@@ -33,12 +35,11 @@ cd "/remote_dir/home/maoweijiang/finlm_eval/finben/FinBen"
 # 5) 执行评估脚本
 model_path="/persist_data/home/maoweijiang/model/Qwen2.5-0.5B"
 
-lm_eval --model hf \
-    --model_args pretrained=$model_path,trust_remote_code=True \
-    --batch_size auto \
-    --tasks chd_test \
-    --include_path ./tasks/fudan \
-    --device cuda:0 \
-    --output_path results3 \
+lm_eval --model vllm \
+    --model_args pretrained=$model_path,trust_remote_code=True,gpu_memory_utilization=0.6,max_model_len=4096,tensor_parallel_size=1 \
+    --batch_size 16 \
+    --tasks FINEVAL_test \
+    --include_path ./tasks/demo \
+    --output_path results \
     --log_samples \
     --verbosity DEBUG
