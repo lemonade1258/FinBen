@@ -1,8 +1,0 @@
-Passed argument batch_size = auto:1. Detecting largest batch size
-Determined largest batch size: 7
-hf (pretrained=/persist_data/home/maoweijiang/model/Qwen2.5-0.5B,trust_remote_code=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: auto (7)
-| Tasks  |Version|Filter|n-shot| Metric |   |Value|   |Stderr|
-|--------|------:|------|-----:|--------|---|----:|---|-----:|
-|chd_test|      1|none  |     0|acc     |↑  | 0.68|±  |0.0270|
-|        |       |none  |     0|acc_norm|↑  | 0.36|±  |0.0278|
-
