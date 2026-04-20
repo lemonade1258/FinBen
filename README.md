@@ -34,7 +34,7 @@ pip install -e .
 pip install -e .[vllm]
 cd ..
 
-pip install -r requirements_finben.txt
+pip install -r requirements.txt
 ```
 
 ### Step 3: 清理 YAML 配置文件硬编码路径
